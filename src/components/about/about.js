@@ -6,7 +6,7 @@ export default class About extends Component {
           <section id="about">
   <div className="row">
     <div className="three columns">
-      <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+      <img className="profile-pic" src="images/profilepicz.jpg" alt="Picture of Myself" />
     </div>
     <div className="nine columns main-col">
       <h2>About Me</h2>
@@ -21,12 +21,12 @@ export default class About extends Component {
         <div className="columns contact-details">
           <h2>Contact Details</h2>
           <p className="address">
-            <span>Jonathan Doe</span><br />
-            <span>1600 Amphitheatre Parkway<br />
-              Mountain View, CA 94043 US
+            <span>Ziedah Ward</span><br />
+            <span>Greater Boston Area<br />
+              Massachusetts
             </span><br />
-            <span>(123)456-7890</span><br />
-            <span>anyone@website.com</span>
+            <span>(857)-492-5565</span><br />
+            <span>Ziedah.Ward001@umb.edu</span>
           </p>
         </div>
         <div className="columns download">

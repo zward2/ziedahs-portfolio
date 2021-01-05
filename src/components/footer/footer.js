@@ -16,7 +16,7 @@ export default class Footer extends Component {
         <li><a href="#"><i className="fa fa-skype" /></a></li>
       </ul>
       <ul className="copyright">
-        <li>© Copyright 2014 CeeVee</li>
+        <li>© Copyright 2014 </li>
         <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
       </ul>
     </div>
