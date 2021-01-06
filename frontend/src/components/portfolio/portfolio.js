@@ -6,17 +6,17 @@ export default class Portfolio extends Component {
         <section id="portfolio">
   <div className="row">
     <div className="twelve columns collapsed">
-      <h1>Check Out Some of My Works.</h1>
+    <a href="https://github.com/zward2/"><h1>Check Out More of My Work <u>Here</u>.</h1></a>
       {/* portfolio-wrapper */}
       <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-01" title>
-              <img alt="" src="images/portfolio/coffee.jpg" />
+              <img alt="Zee's Chat" src="images/portfolio/chat_pic.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Coffee</h5>
-                  <p>Illustrration</p>
+                  <h5>The Girls' Room</h5>
+                  <p>A Private Chatroom</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -26,11 +26,11 @@ export default class Portfolio extends Component {
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-02" title>
-              <img alt="" src="images/portfolio/console.jpg" />
+              <img alt="" src="/images/Celsius_calc.jpeg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Console</h5>
-                  <p>Web Development</p>
+                  <h5>Temperature Calculator</h5>
+                  <p>Using React components and this.state</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -126,14 +126,14 @@ export default class Portfolio extends Component {
     {/* Modal Popup
 	      --------------------------------------------------------------- */}
     <div id="modal-01" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+      <img className="scale-with-grid" src="images/portfolio/modals/m-chat_pic.jpg" alt="" />
       <div className="description-box">
-        <h4>Coffee Cup</h4>
+        <h4>The Girls'Room</h4>
         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
         <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
       </div>
       <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
+        <a href="https://github.com/zward2/Zees_Chatroom">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-01 End */}

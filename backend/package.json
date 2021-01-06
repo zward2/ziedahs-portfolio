@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "author": "Ziedah Ward",
+  "license": "ISC",
+  "description": "Backend of website portfolio",
+  "main": "index.js"
+}
