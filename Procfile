@@ -1,1 +1,1 @@
-web: node server.js
+web: node ziedah-portfolio/server.js
