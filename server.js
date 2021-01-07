@@ -1,16 +1,47 @@
-const express = require('express')
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const path = require('path');
+
+// Create a new express application named 'app'
 const app = express();
 
-const port = process.env.PORT || 8080
+// Set our backend port to be either an environment variable or port 5000
+const port = process.env.PORT || 5000;
 
+// This application level middleware prints incoming requests to the servers console, useful to see incoming requests
+app.use((req, res, next) => {
+    console.log(`Request_Endpoint: ${req.method} ${req.url}`);
+    next();
+});
 
+// Configure the bodyParser middleware
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
-app.use(express.static(__dirname + "/public"));
+// Configure the CORs middleware
+app.use(cors());
+// Require Route
+const api = require('./routes/routes');
+// Configure app to use route
+app.use('/api/v1/', api);
+// This middleware informs the express application to serve our compiled React files
+if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
+    app.use(express.static(path.join(__dirname, 'frontend/build')));
 
-app.get("/", function (req,res) {
-    res.render("index");
-})
+    app.get('*', function (req, res) {
+        res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'));
+    });
+};
 
-app.listen(port, function() {
-    console.log("app running");
-})
+// Catch any bad requests
+app.get('*', (req, res) => {
+    res.status(200).json({
+        msg: 'Catch All'
+    });
+});
+
+// Configure our server to listen on the port defiend by our port variable
+app.listen(port, () => console.log(`BACK_END_SERVICE_PORT: ${port}`));
