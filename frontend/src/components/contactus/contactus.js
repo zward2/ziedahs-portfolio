@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+{/*import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
     return (
@@ -6,9 +6,10 @@ export default class ContactUs extends Component {
      <section id="contact">
   <div className="row section-head">
     <div className="two columns header-col">
-      <h1><span>Get In Touch.</span></h1>
+      
     </div>
     <div className="ten columns">
+    <h1><span>Get In Touch.</span></h1>
       <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
@@ -18,7 +19,7 @@ export default class ContactUs extends Component {
   <div className="row">
     <div className="eight columns">
       {/* form */}
-      <form action method="post" id="contactForm" name="contactForm">
+      {/*<form action method="post" id="contactForm" name="contactForm">
         <fieldset>
           <div>
             <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -45,9 +46,9 @@ export default class ContactUs extends Component {
         </fieldset>
       </form> {/* Form End */}
       {/* contact-warning */}
-      <div id="message-warning"> Error boy</div>
+      <div id="message-warning"> Error </div>
       {/* contact-success */}
-      <div id="message-success">
+      {/*<div id="message-success">
         <i className="fa fa-check" />Your message was sent, thank you!<br />
       </div>
     </div>
@@ -55,13 +56,13 @@ export default class ContactUs extends Component {
       <div className="widget widget_contact">
         <h4>Address and Phone</h4>
         <p className="address">
-          Jonathan Doe<br />
-          1600 Amphitheatre Parkway <br />
-          Mountain View, CA 94043 US<br />
-          <span>(123) 456-7890</span>
+          Ziedah Ward<br />
+          Greater Boston Area <br />
+          Boston, MA <br />
+          <span>(857) 492-5565</span>
         </p>
       </div>
-      <div className="widget widget_tweets">
+      {/*<div className="widget widget_tweets">
         <h4 className="widget-title">Latest Tweets</h4>
         <ul id="twitter">
           <li>
@@ -81,13 +82,13 @@ export default class ContactUs extends Component {
             <b><a href="#">3 Days Ago</a></b>
           </li>
         </ul>
-      </div>
-    </aside>
+    </div>*/}
+    {/*</aside>
   </div>
-</section>
+    </section>
 
      
       </React.Fragment>
     );
   }
-}
+}*/}

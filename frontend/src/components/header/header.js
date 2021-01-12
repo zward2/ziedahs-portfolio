@@ -15,7 +15,7 @@ export default class Header extends Component {
       <li><a className="smoothscroll" href="#resume">Resume</a></li>
       <li><a className="smoothscroll" href="#portfolio">Works</a></li>
       {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
-      <li><a className="smoothscroll" href="#contact">Contact</a></li>
+      {/*<li><a className="smoothscroll" href="#contact">Contact</a></li>*/}
     </ul> {/* end #nav */}
   </nav> {/* end #nav-wrap */}
   <div className="row banner">
@@ -26,13 +26,10 @@ export default class Header extends Component {
                <hr/>
       <hr />
       <ul className="social">
-        <li><a href="#"><i className="fa fa-facebook" /></a></li>
-        <li><a href="#"><i className="fa fa-twitter" /></a></li>
-        <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-        <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-        <li><a href="#"><i className="fa fa-instagram" /></a></li>
-        <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-        <li><a href="#"><i className="fa fa-skype" /></a></li>
+        
+        <li><a href="https://www.linkedin.com/in/ziedah-ward/"><i className="fa fa-linkedin" /></a></li>
+        <li><a href="https://github.com/zward2"><i className="fa fa-github" /></a></li>
+        <li><a href="mailto:Ziedahward@gmail.com"><i className="fa fa-envelope" /></a></li>
       </ul>
     </div>
   </div>
