@@ -42,27 +42,29 @@ export default class Resume extends Component {
         <div className="twelve columns">
           <h3>Shawmut Design And Construction</h3>
           <p className="info">Accounting Department-A/P <span>•</span> <em className="date">Jan 2020 - Nov 2020</em></p>
-          <p>
-          Processed invoices and journal entries with efficiency and accuracy with Kofax system, resulting in decreased discrepancies.
-Prepared month-end closing entries for detailed reporting and recordkeeping. Applied mathematical abilities on daily basis to calculate and check figures in all areas of accounting systems.
-Reached out to vendors and customers to verify information and follow up on client issues.
-Applied proper codes to invoices, files and receipts to keep records organized and easily searchable.
-Managed W-9 folder and new vendor set up to stay on top of applicable federal and state requirements.
-          </p>
+          
+            <ul>
+          <li>Processed invoices and journal entries with efficiency and accuracy with Kofax system, resulting in decreased discrepancies.</li>
+          <li>Prepared month-end closing entries for detailed reporting and recordkeeping. Applied mathematical abilities on daily basis to calculate and check figures in all areas of accounting systems.</li>
+          <li>Reached out to vendors and customers to verify information and follow up on client issues.</li>
+          <li>Applied proper codes to invoices, files and receipts to keep records organized and easily searchable.</li>
+          <li>Managed W-9 folder and new vendor set up to stay on top of applicable federal and state requirements.</li>
+</ul>
+          
         </div>
       </div> {/* item end */}
       <div className="row item">
         <div className="twelve columns">
           <h3>The Nature Conservancy</h3>
           <p className="info">Finance Assistant <span>•</span> <em className="date">June 2019 - Jan 2020 </em></p>
-          <p>
-          Managed the accounts payable system which included preparing hundreds of invoices on a monthly basis, resolving problems related to accounts payable, and maintaining great relationships with external vendors.
-Assisted in annual budgeting with Director of Finance and created tracking reports as needed.
-Managed non-real estate contracts and grants-out coordination by ensuring contracts are compliant, tracking, paying, and following up with staff on deadlines/issues.
-Prepare and process various accounting forms and adjustments, verify the accuracy and coding of journal entry transactions, run reports as needed for tracking and analysis.
-Grant Support to Director of Finance which entailed tracking report deadlines, assisting with due diligence, creating grant budgets, assisting with processing and tracking of grant- funded contracts and sub-awards.
-Created monthly expense reports for three facilities. Reported financial data and updated financial records in ledgers and journals.
-          </p>
+          <ul>
+          <li>Managed the accounts payable system which included preparing hundreds of invoices on a monthly basis, resolving problems related to accounts payable, and maintaining great relationships with external vendors.</li>
+          <li>Assisted in annual budgeting with Director of Finance and created tracking reports as needed.</li>
+          <li>Managed non-real estate contracts and grants-out coordination by ensuring contracts are compliant, tracking, paying, and following up with staff on deadlines/issues.</li>
+          <li>Prepare and process various accounting forms and adjustments, verify the accuracy and coding of journal entry transactions, run reports as needed for tracking and analysis.</li>
+          <li>Grant Support to Director of Finance which entailed tracking report deadlines, assisting with due diligence, creating grant budgets, assisting with processing and tracking of grant- funded contracts and sub-awards.</li>
+          <li>Created monthly expense reports for three facilities. Reported financial data and updated financial records in ledgers and journals.</li>
+          </ul>
         </div>
       </div> {/* item end */}
     </div> {/* main-col end */}

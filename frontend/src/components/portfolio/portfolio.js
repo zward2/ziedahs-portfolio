@@ -6,7 +6,8 @@ export default class Portfolio extends Component {
         <section id="portfolio">
   <div className="row">
     <div className="twelve columns collapsed">
-    <a href="https://github.com/zward2/"><h1>Check Out More of My Work <u>Here</u>.</h1></a>
+    <a href="https://github.com/zward2/"><h1>Check Out My Work <u>Here</u>.</h1></a>
+    <h1> <strong> Recent Web Development Projects </strong> </h1>
       {/* portfolio-wrapper */}
       <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
         <div className="columns portfolio-item">
@@ -40,11 +41,11 @@ export default class Portfolio extends Component {
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-03" title>
-              <img alt="" src="images/portfolio/judah.jpg" />
+              <img alt="" src="images/portfolio_pic1.jpg.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Judah</h5>
-                  <p>Webdesign</p>
+                  <h5>React Portfolio</h5>
+                  <p>MERN Development</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -54,17 +55,17 @@ export default class Portfolio extends Component {
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-04" title>
-              <img alt="" src="images/portfolio/into-the-light.jpg" />
+              <img alt="" src="images/amazonafront.png" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Into The Light</h5>
-                  <p>Photography</p>
+                  <h5>Ecommerce app amazona</h5>
+                  <p>Amazon Replica Design</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
             </a>
           </div>
-        </div> {/* item end */}
+        </div> {/* item end */}{/*
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-05" title>
@@ -78,7 +79,7 @@ export default class Portfolio extends Component {
               <div className="link-icon"><i className="icon-plus" /></div>
             </a>
           </div>
-        </div> {/* item end */}
+        </div> {/* item end */}{/*
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-06" title>
@@ -92,7 +93,7 @@ export default class Portfolio extends Component {
               <div className="link-icon"><i className="icon-plus" /></div>
             </a>
           </div>
-        </div> {/* item end */}
+        </div> {/* item end */}{/*
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-07" title>
@@ -106,7 +107,7 @@ export default class Portfolio extends Component {
               <div className="link-icon"><i className="icon-plus" /></div>
             </a>
           </div>
-        </div> {/* item end */}
+        </div> {/* item end */}{/*
         <div className="columns portfolio-item">
           <div className="item-wrap">
             <a href="#modal-08" title>
@@ -129,8 +130,8 @@ export default class Portfolio extends Component {
       <img className="scale-with-grid" src="images/portfolio/modals/m-chat_pic.jpg" alt="" />
       <div className="description-box">
         <h4>The Girls'Room</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+        <p> This is one of my first efforts in making a full-stack web app using the MERN stack</p>
+        <span className="categories"><i className="fa fa-tag" />Full stack</span>
       </div>
       <div className="link-box">
         <a href="https://github.com/zward2/Zees_Chatroom">Details</a>
@@ -138,41 +139,41 @@ export default class Portfolio extends Component {
       </div>
     </div>{/* modal-01 End */}
     <div id="modal-02" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+      <img className="scale-with-grid" src="images/temperature_calc.png" alt="" />
       <div className="description-box">
-        <h4>Console</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+        <h4>React.js Temperature Calculator</h4>
+        <p>I made this project to hone my skills with react components and this.state .</p>
+        <span className="categories"><i className="fa fa-tag" />JavaScript, HTML, CSS,React.js</span>
       </div>
       <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
+        <a href="https://github.com/zward2/week-11-homework-react-math-calc/tree/answer8_19">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-02 End */}
     <div id="modal-03" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+      <img className="scale-with-grid" src="images/portfolio_pic1.jpg.png" alt="" />
       <div className="description-box">
-        <h4>Judah</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding</span>
+        <h4>React.js Portfolio</h4>
+        <p>I wanted to showcase my react projects with a react built portfolio.</p>
+        <span className="categories"><i className="fa fa-tag" />MongoDB, Mongoose, Express.js, React.js, Node.js, Axios, HTML, CSS, Bootstrap,Heroku</span>
       </div>
       <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
+        <a href="https://github.com/zward2/ziedahs-portfolio">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
     </div>{/* modal-03 End */}
     <div id="modal-04" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+      <img className="scale-with-grid" src="images/amazonafront.png" alt="" />
       <div className="description-box">
-        <h4>Into the Light</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Photography</span>
+        <h4>Amazona </h4>
+        <p>I made this as additional practice making full-stack apps with JavaScript's MERN stack.</p>
+        <span className="categories"><i className="fa fa-tag" />MongoDB, Mongoose, Express.js, React.js, Node.js, Axios, React Router, HTML, CSS, Bootstrap</span>
       </div>
       <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
+        <a href="https://github.com/zward2/amazona">Details</a>
         <a className="popup-modal-dismiss">Close</a>
       </div>
-    </div>{/* modal-04 End */}
+    </div>{/* modal-04 End */}{/*
     <div id="modal-05" className="popup-modal mfp-hide">
       <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
       <div className="description-box">
