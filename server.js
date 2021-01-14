@@ -36,9 +36,6 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
     });
 };
 
-var pdf = fs.createReadStream('./path-to-file-location/DeveloperResFINALReactNot.pdf');
-
-
 // Catch any bad requests
 app.get('*', (req, res) => {
     res.status(200).json({
