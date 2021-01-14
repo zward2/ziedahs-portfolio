@@ -131,7 +131,7 @@ export default class Portfolio extends Component {
       <div className="description-box">
         <h4>The Girls'Room</h4>
         <p> This is one of my first efforts in making a full-stack web app using the MERN stack</p>
-        <span className="categories"><i className="fa fa-tag" />Full stack</span>
+        <span className="categories"><i className="fa fa-tag" />MONGODB, MONGOOSE, EXPRESS.JS, REACT.JS, NODE.JS, HTML, CSS, BOOTSTRAP,HEROKU</span>
       </div>
       <div className="link-box">
         <a href="https://github.com/zward2/Zees_Chatroom">Details</a>
